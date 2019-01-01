@@ -1,0 +1,18 @@
+html
+  head
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    link(rel="stylesheet" href="/static/style.css")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js")
+    script(src="https://code.jquery.com/jquery-3.3.1.min.js")
+    script(type="text/javascript" src="/static/vendor/purify.min.js")
+    script(src="/static/script.js")
+    title web.lab Ideation
+  body
+    .header
+      h1 submit your ideas
+      h2 press any key to start
+    .form
+      input(type="text" placeholder="your idea")#ideainput
+      button(onclick="send()") submit
