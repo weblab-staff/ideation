@@ -26,7 +26,7 @@ body {
 }
 
 .ideas-wrapper {
-  width: 100%;
+  padding: 30px 300px 0;
   height: 400px;
   margin-bottom: 10px;
   overflow-y: auto;
@@ -34,12 +34,45 @@ body {
   flex-direction: row;
   align-items: flex-end;
   overflow-x: hidden;
+  font-size: 1.2em;
 }
 
 .ideas {
   height: 400px;
   overflow-y: auto;
   width: 100%;
+}
+
+.form {
+  margin: 100px auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form button {
+  border: 1px solid #396dff;
+  color: #efefef;
+  font-size: 0.8em;
+  padding: 0 1.5em;
+  height: 2.8em;
+  cursor: pointer;
+  text-decoration: none;
+  background: #396dff;
+  font-family: "IBM Plex Mono";
+}
+
+.form button:hover {
+  border-color: #0031ba;
+  background: #0031ba;
+}
+
+.form input {
+  font-family: "Open Sans";
+  font-size: 1.2em;
+  border: 1px solid #396dff;
+  padding: 0.2em;
 }
 
 @media screen and (max-width: 600px) {
