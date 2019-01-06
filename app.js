@@ -3,7 +3,7 @@ const path = require("path");
 const pug = require("pug");
 const app = express();
 
-const PORT = 3000;
+const PORT = process.env.PORT||3000;
 
 // Setting up Views and Directories
 app.set("views", path.join(__dirname, "views"));
