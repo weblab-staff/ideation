@@ -21,7 +21,7 @@
   "homepage": "https://github.com/mit6148-staff/ideation#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "socket.io": "^2.2.0"
   }
 }
